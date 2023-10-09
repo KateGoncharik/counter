@@ -1,0 +1,11 @@
+.instructions {
+  color: var(--subtitle-color);
+  font-size: 1.2em;
+  margin: 0.4em;
+  &-title {
+    color: var(--subtitle-color);
+    margin: 0.4em 0;
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+}
