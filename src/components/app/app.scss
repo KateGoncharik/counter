@@ -1,0 +1,32 @@
+@import './normalize.css';
+
+.root {
+  --bg-color: rgb(221 245 255);
+  --bg-color-additional: rgb(255 255 255 / 50%);
+  --title-color: #092c77;
+  --subtitle-color: rgb(2 34 163 / 76%);
+  --font-color: rgb(240, 94, 133);
+  --font-color-additional: rgb(111 83 137);
+  --button-border-color: rgb(0 0 0 / 50%);
+  --button-bg: rgb(154, 201, 255);
+  --button-color: rgb(28, 67, 141);
+
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+  background: var(--bg-color);
+  gap: 1vh;
+
+  &.theme-dark {
+    --bg-color: rgb(35, 29, 63);
+    --bg-color-additional: rgba(116, 94, 137, 0.5);
+    --title-color: rgb(195, 228, 255);
+    --subtitle-color: white;
+    --font-color: rgb(200, 198, 246);
+    --font-color-additional: rgb(193, 229, 237);
+    --button-border-color: rgba(0, 0, 0, 0.5);
+    --button-bg: rgb(44, 42, 88);
+    --button-color: rgb(235, 234, 255);
+  }
+}

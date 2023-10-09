@@ -1,0 +1,26 @@
+.counter {
+  &-wrapper {
+    max-width: 100%;
+    max-height: 60vh;
+    padding: 2%;
+    background-color: var(--bg-color-additional);
+    display: flex;
+    justify-content: center;
+  }
+  &-amount {
+    margin: 2%;
+    color: var(--title-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+}
+
+.change-theme-button {
+  background-color: var(--button-bg);
+  border: 1px solid var(--button-border-color);
+  color: var(--button-color);
+  width: 4.5em;
+  font-weight: 600;
+}
